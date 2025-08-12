@@ -72,23 +72,6 @@ Power On: Connect Pico W via USB
 Flash Firmware: Use generated .uf2 file
 Monitor Output: View serial console for debugging info
 
-📱 User Interface
-┌─────────────────────────┐
-│ AHT10                   │ ← System identifier
-│ 26.0C                   │ ← Temperature (with alerts)
-│ 65.3%                   │ ← Humidity (with alerts)  
-│ IDEAL                   │ ← Environmental status
-└─────────────────────────┘
-
-Alert Examples
-Normal Operation:        Critical Conditions:
-┌─────────────────────────┐ ┌─────────────────────────┐
-│ AHT10                   │ │ AHT10                   │
-│ 24.2C                   │ │ 18.5C  !C               │
-│ 55.8%                   │ │ 75.2%  !H               │
-│ IDEAL                   │ │ FRIO                    │
-└─────────────────────────┘ └─────────────────────────┘
-
 🔬 Advanced Features
 Environmental Compensation
 The system implements sophisticated temperature compensation to account for:
